@@ -1,6 +1,6 @@
-//Start coding here
-const greeting = "Hello ! 😁";
+function greeting() {
+    return "Hello ! 😁";
+}
 
-greeting();
-
+console.log(greeting()); // ✅ Hello ! 😁
 console.log("This line will be executed without any error.");

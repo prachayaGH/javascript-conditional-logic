@@ -1,4 +1,8 @@
 //Exercise 1
 let lightBulbStatus = "On";
 
-// Start coding here.
+if (lightBulbStatus === "On") {
+    console.log("The light is on");
+} else {
+    console.log("The light is off");
+}
